@@ -1,0 +1,53 @@
+###############################################################
+# Syntax Coloring Map for SmartRelay
+###############################################################
+
+###############################################################
+# Datatypes (KEYWORD1)
+###############################################################
+
+SmartRelay	KEYWORD1
+
+###############################################################
+# Methods and Functions (KEYWORD2)
+###############################################################
+
+begin	KEYWORD2
+relayOn	KEYWORD2
+relayOff	KEYWORD2
+relayOnFor	KEYWORD2
+relayOffFor	KEYWORD2
+watchdogEnable	KEYWORD2
+watchdogDisable	KEYWORD2
+watchdogPing	KEYWORD2
+watchdogSetPingTimeout	KEYWORD2
+watchdogSetResetDuration	KEYWORD2
+watchdogSetResetActiveState	KEYWORD2
+watchdogGetResetActiveState	KEYWORD2
+watchdogGetTripCount	KEYWORD2
+watchdogClearTripCount	KEYWORD2
+eepromClear	KEYWORD2
+powerCycleEnable	KEYWORD2
+powerCycleDisable	KEYWORD2
+powerCycleSetMaxOnTime	KEYWORD2
+powerCycleSleep	KEYWORD2
+relayStatePersistEnable	KEYWORD2
+relayStatePersistDisable	KEYWORD2
+relayStatePersistGet	KEYWORD2
+relayGetState	KEYWORD2
+i2cSetAddress	KEYWORD2
+eepromGetWriteCount	KEYWORD2
+eepromGetShiftCount	KEYWORD2
+firmwareGetVersion	KEYWORD2
+eepromGetVersion	KEYWORD2
+deviceInfo	KEYWORD2
+
+###############################################################
+# Constants (LITERAL1)
+###############################################################
+
+STATUS_OK	LITERAL1
+STATUS_ERR	LITERAL1
+STATUS_BAD_CMD	LITERAL1
+STATUS_BAD_PARAM	LITERAL1
+STATUS_BUSY	LITERAL1
